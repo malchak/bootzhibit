@@ -7,6 +7,7 @@ class ProjectsController < ApplicationController
 
 	def new
 		@project = Project.new
+		@boots = Boot.new
 	end
 
 	def create
