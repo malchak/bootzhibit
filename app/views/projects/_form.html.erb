@@ -1,0 +1,16 @@
+<div class="container">
+	<%= form_for @project, :url => projects_path, :html => { :multipart => true} do |form| %>
+		
+		<p><%= form.text_field :name, :placeholder => "Project Name" %></p>
+		<p><%= form.text_field :url,  :placeholder => "http://www.projecturl.com" %></p>
+		<p><%= form.text_area	:description, :placeholder => "Tell us about your project" %></p>
+
+		<p><%= form.file_field :avatar %></p>
+		
+		<p>Project Team</p>
+		<%= form.fields_for :boots  %>
+
+		<p><%= form.submit %></p>
+	<% end %>
+
+</div class="container">

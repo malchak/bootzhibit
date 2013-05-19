@@ -1,4 +1,13 @@
 Bootzhibit::Application.routes.draw do
+  
+  get "home/index"
+
+  root :to => "projects#index"
+
+  resources :projects
+
+  resources :boots
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
