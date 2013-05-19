@@ -1,6 +1,6 @@
 class Project < ActiveRecord::Base
   has_many :boots
-  attr_accessible :avatar, :name, :url, :description
+  attr_accessible :avatar, :name, :url, :description, :boot_attributes
   
   has_attached_file :avatar, :styles => {:large => "700x390>", :medium => "450x252>"}, 
   									:default_url => "/images/:style/missing.png"

@@ -8,7 +8,12 @@
 		<p><%= form.file_field :avatar %></p>
 		
 		<p>Project Team</p>
-		<%= form.fields_for :boots  %>
+		<%= form.fields_for :boots do |boots| %>
+		 <p><%= boots.text_field :firstname %></p>
+		 <p><%= boots.text_field :lastname %></p>
+		 <p><%= boots.text_field :cohort %></p>
+		 <p><%= boots.file_field :avatar %></p>
+		<% end %>
 
 		<p><%= form.submit %></p>
 	<% end %>
