@@ -67,7 +67,7 @@ body {
 	margin-right: 40px;
 }
 
-.description {
+.project-profile {
 	border-left: 2px solid #888;
 	float: left;
 	height: 394px;
@@ -84,5 +84,52 @@ body {
   font-style: italic;
 }	
 
+.project-team {
+	padding: 10px;
+	clear: both;
+	/*border-top: 2px solid #888;*/
+	height: 300px;
+	width: 100%;
+	text-align: center
+}
 
+.boot-profile {
+	height: 300px;
+	width: 300px;
+	text-align: center;
+}
+
+.boot-profile p {
+	margin: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  color: #777;
+  font-style: italic;
+}
+
+.boot-img img{
+	border-radius: 100%;
+}
+
+.project-team h3 {
+	margin: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  font-size: 45px;
+  color: #777;
+  font-style: italic;
+}
+
+.project-description {
+	margin: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  color: #777;
+  font-style: italic;
+}
 
